@@ -2,12 +2,35 @@ body {
     display: flex;
     background: white;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
     background: #1F2937;
     display: flex;
-    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    height: 20px;
+}
+
+.Logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
 }
 
 .title{
@@ -21,6 +44,7 @@ body {
     margin-bottom: -20px;
     text-align: center;
 }
+
 .content {
     display: flex;
     justify-content: center;
@@ -28,7 +52,8 @@ body {
     margin-bottom: 30px;
     margin-top: 40px;
 }
-.footer {
+
+.quote {
     background: #E5E7EB;
     font-size: 36px;
     font-style: italic;
@@ -36,17 +61,6 @@ body {
     color: #1F2937;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 12px;
-    margin-right: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: grey;
-}
 .Sign_up {
 
 }
