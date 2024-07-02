@@ -42,8 +42,12 @@ a {
 }
 
 .title_text{
-    max-width: 450px;
+    max-width: 600px;
 }
+.title_image {
+    margin-left: -450px;
+}
+
 
 .heading {
     font-family: "Roboto", sans-serif;
