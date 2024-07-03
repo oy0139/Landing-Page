@@ -112,22 +112,23 @@ img {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
-    height: 400px;
+    padding: 200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .quote_text {
-    max-width: 900px;
+    display: flex;
+    align-items: center;
 }
 
 .quote_author {
     font-weight: 700;
     font-size: 24px;
-    position: relative;
-    top: 100px;
-    right: 150px;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 10px;
 }
 
 .Sign_up {
