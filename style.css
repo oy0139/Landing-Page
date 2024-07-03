@@ -102,6 +102,9 @@ img {
     transform: scale(1.1);
 }
 
+.orca_text {
+    font-size: 18px;
+}
 .quote {
     background: #E5E7EB;
     font-size: 36px;
