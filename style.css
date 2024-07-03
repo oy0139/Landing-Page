@@ -131,7 +131,25 @@ img {
 }
 
 .Sign_up {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 100px 300px;
+ }
 
+.signup_title {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 18px;
+    color: #E5E7EB;
  }
 
 button {
@@ -139,7 +157,6 @@ button {
     border-radius: 10px;
     padding: 10px 40px;
     font-weight: 700;
-    color: white;
-   
+    color: #F9FAF8;
 }
 
